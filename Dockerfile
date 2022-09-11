@@ -1,7 +1,6 @@
 FROM alpine:3.16.2 as builder
 ARG BASE_URL
 ARG PORT
-RUN echo $PORT 
 RUN apk update && apk upgrade
 RUN apk add zola git gettext
 WORKDIR /opt/blog

@@ -26,8 +26,8 @@ katex = true
 hamburger_menu = true
 main_menu = [
 	{url="/tags/", name="tags"},
-	{url="/categorias/", name="categorias"},
 	{url="/sobre/", name="sobre"},
+	{url="/inscreva-se/", name="inscreva-se"},
 ]
 social_links = [
 	# {url = "https://t.me/zwitterio", name = "telegram"},
