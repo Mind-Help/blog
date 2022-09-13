@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://localhost:4000/"
+base_url = "https://mind-help.github.io/blog/"
 theme = "zhuia"
 title = "Mind-Help"
 # Whether to automatically compile all Sass files in the sass directory

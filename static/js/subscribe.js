@@ -6,13 +6,13 @@ const span_message = document.getElementById("message");
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-  const response = await fetch(new URL("http://localhost:3333/sub"), {
+  const response = await fetch(new URL("https://blogsubservice-production.up.railway.app/sub"), {
     method: "POST",
     mode: "cors",
     headers: {
       Accept: "application/json",
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "http://localhost:4000",
+      "Access-Control-Allow-Origin": "https://mind-help.github.io",
     },
     body: JSON.stringify({ name: username.value, email: email.value }),
   });

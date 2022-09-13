@@ -16,4 +16,4 @@ date = 2022-09-08
 <button type="submit">inscrever-se</button><br/>
 <span id="message"></span>
 </form>
-<script type="text/javascript" defer src="/js/subscribe.js"></script>
+<script type="text/javascript" defer src="/blog/js/subscribe.js"></script>
