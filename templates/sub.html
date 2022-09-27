@@ -1,0 +1,27 @@
+{% import "macros/pagination_page.html" as pagination_page -%}
+{% extends "index.html" -%}
+{%- block title %}
+    <title>{{ page.title }} - {{  config.title }}</title>
+{%- endblock title -%}
+
+{%- block breadcrumbs -%}
+{{ breadcrumbs::breadcrumbs(page=page) }}
+{%- endblock breadcrumbs -%}
+
+{%- block content -%}
+{{ posts::card(page=page, full=true) }}
+<form id="sub_form">
+  <label for="name"
+    >Nome<br />
+    <input class="form-input" id="name" placeholder="John Done" type="text" /><br />
+  </label>
+  <label for="email"
+    >Email<br />
+    <input class="form-input" id="email" placeholder="johndoe@mail.com" type="email" /><br />
+  </label>
+  <button class="btn" type="submit">inscrever-se</button><br />
+  <span id="message"></span>
+</form>
+<script type="text/javascript" defer src="/blog/js/subscribe.js"></script>
+{%- endblock content -%}
+

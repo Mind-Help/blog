@@ -4,12 +4,11 @@ author = "Equipe Mind-Help"
 date = 2022-09-08
 
 [extra]
-cover_image = "um-saco-de-batatas.jpg"
+cover_image = "banner.png"
 +++
-# Intankavel o bostil
 
-Não aceitamos o termo “Bostil” em nosso sub, é uma palavra de desprezo ao nosso país, derrotista, vira-lata e incel que teve origem em Chans brasileiros.
+## Sejam Bem-Vindos a Mind Help!
 
-Se você não está satisfeito com o rumo de seu país faça alguma coisa para muda-lo, fortaleça sua comunidade, ingresse em partidos políticos, organizações sociais, faça trabalho voluntário ou tantas outras opções.
+A Mind Help é uma startup onde busca ajudar e auxiliar os clientes em seus momentos de crises que acabam passando em sua rotina.
 
-A partir de agora começaremos a aplicar punições aos usuários que utilizarem o termo, não apenas removê-lo.
+Com um auxílio inovador para diminuir um problema com bastante número de casos, a Mind Help não visa somente alertar e promover métodos de prevenção para crises. A Mind Help tem como principal missão a ajuda emergencial para pessoas em momentos de anseio, ou seja além de estar com você lhe ajudando a precaver e entender seus sentimentos diariamente, a Mind Help estará presente nos seus momentos mais difíceis, pois muito mais que um App, queremos nos tornar seu apoio, um pilar de confiança.

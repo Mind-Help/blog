@@ -1,18 +1,11 @@
-# The URL the site will be built for
 base_url = "https://mind-help.github.io/blog/"
 theme = "zhuia"
 title = "Mind-Help"
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 default_language = "pt-br"
 
-# Whether to build a search index to be used later on by a JavaScript library
-# build_search_index = true
-
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
 [extra]
@@ -32,22 +25,18 @@ main_menu = [
 	{url="/inscreva-se/", name="inscreva-se"},
 ]
 social_links = [
-	# {url = "https://t.me/zwitterio", name = "telegram"},
-	# {url = "https://twitter.com/gicrisf", name = "twitter"},
     {url = "https://github.com/mind-help", name = "github"},
     {url = "https://instagram.com/mindhelp027", name = "instagram"},
-    # {url = "", name = "facebook"},
 ]
 footer_tagline = "Equipe Mind-Help"
 
 [extra.sidebar]
-# Enable/Disable sidebar
 active=true
 
-text_snippet="<strong>Bem Vindo!<strong/>"
+text_snippet="<a href=\"bem-vindo\"><strong>Bem Vindo!<strong/></a>"
 
-author_bio = "Profissionais da saúde em parceria com a mind-help"
-author_avatar = "avatar.png"
+author_bio = "Nossa empresa é composta por 4 integrantes, onde visamos o propósito de ajudar o próximo via nosso APP para crises emergenciais."
+author_avatar = "avatar.svg"
 
 tweets_by="elonmusk"
 
