@@ -38,7 +38,5 @@ text_snippet="<a href=\"bem-vindo\"><strong>Bem Vindo!<strong/></a>"
 author_bio = "Nossa empresa é composta por 4 integrantes, onde visamos o propósito de ajudar o próximo via nosso APP para crises emergenciais."
 author_avatar = "avatar.svg"
 
-tweets_by="elonmusk"
-
 popular_tags=true
 archive=true
